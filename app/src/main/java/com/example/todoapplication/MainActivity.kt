@@ -24,6 +24,7 @@ private lateinit var mAuth: FirebaseAuth
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+//        mAuth = FirebaseAuth.getInstance()
         mAuth = FirebaseAuth.getInstance()
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
     }
